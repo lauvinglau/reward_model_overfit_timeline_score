@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lauvinglau-aiefficiency_jd127"
+name = "lauvinglau-reward_model_overfit_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列AI 工程效率工具工程师·奖励模型的过拟合的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lauvinglau.github.io"
-Repository = "https://github.com/lauvinglau/aiefficiency_jd127"
-Issues = "https://github.com/lauvinglau/aiefficiency_jd127/issues"
+Repository = "https://github.com/lauvinglau/reward_model_overfit_timeline_score"
+Issues = "https://github.com/lauvinglau/reward_model_overfit_timeline_score/issues"
 
 [project.scripts]
-aiefficiency_jd127 = "aiefficiency_jd127:main"
+reward_model_overfit_timeline_score = "reward_model_overfit_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["aiefficiency_jd127"]
+py-modules = ["reward_model_overfit_timeline_score"]
